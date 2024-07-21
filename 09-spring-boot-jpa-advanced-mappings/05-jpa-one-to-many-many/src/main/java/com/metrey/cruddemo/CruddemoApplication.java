@@ -24,10 +24,10 @@ public class CruddemoApplication {
 		return runner ->{
 			//createCourseAndStudent(appDAO);
 			//findCourseAndStudent(appDAO);
-			//findStudentAndCourse(appDAO);
+			findStudentAndCourse(appDAO);
 			//updateStudent(appDAO);
 			//deleteCourse(appDAO);
-			deleteStudent(appDAO);
+			//deleteStudent(appDAO);
 		};
 	}
 	private void deleteStudent(AppDAO appDAO){
